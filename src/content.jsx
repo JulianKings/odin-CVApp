@@ -24,7 +24,7 @@ function Content() {
           <DataInput displayTitle='My Jobs' displayButton='Add job experience' arrayType='jobs' displayArray={jobs} updateArray={setJobs} />
         </div>
         <div className='result'>
-          <RenderedResult displayName={name} displayMail={mail} displayPhone={phone} displayAddress={address} />
+          <RenderedResult displayName={name} displayMail={mail} displayPhone={phone} displayAddress={address} educationArray={education} jobsArray={jobs} />
         </div>
       </div>
     </>
