@@ -8,10 +8,10 @@ body, html {
 body {
   font-family: 'Calibri', 'Roboto', sans-serif;
   font-size: 1.1rem;
+  background-color: rgb(230, 233, 234, 0.4);
 }
 
 .mainContent {
-  background-color: rgb(230, 233, 234, 0.4);
   width: 100%;
   min-height: 100%;
   height: auto;
@@ -40,10 +40,24 @@ body {
     gap: 0.4rem;
 }
 
+.contentBoxForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.contentBoxForm input {
+  background-color: rgb(230, 233, 234, 0.4);
+  border: 0;
+  padding: 0.6rem 0.7rem;
+  border-radius: 0.4rem;
+
+}
+
 .contentBox .contentTitle {
   margin: 0.4rem 0;
   padding: 0;
-  color: rgb(0, 0, 100);
+  color: rgb(0, 0, 59);
   font-weight: bold;
   font-size: 1.4rem;
 }

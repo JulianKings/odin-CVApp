@@ -1,0 +1,29 @@
+.dataListHolder {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.dataListHolderItem {
+    display: grid;
+    grid-template-columns: 1fr 1.5rem 1.5rem;
+}
+
+.dataListHolderItemEdit, .dataListHolderItemDelete  {
+    opacity: 0.6;
+}
+
+.dataListHolderItemEdit:hover, .dataListHolderItemDelete:hover  {
+    animation: fadeInFromNone 0.5s ease-out;
+    opacity: 1;
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

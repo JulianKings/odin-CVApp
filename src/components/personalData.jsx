@@ -1,11 +1,9 @@
-import './personalData.css'
-
 function PersonalData({ displayName, setDisplayName, displayMail, setDisplayMail, displayPhone, setDisplayPhone, displayAddress, setDisplayAddress })
 {
     return (
     <>
         <div className="contentBox">
-            <p className="contentTitle">Personal Data</p>
+            <p className="contentTitle">About me</p>
             <div className="contentBoxForm">
                 <label htmlFor="fullName">Full Name</label>
                 <input type="text" id="fullName" name="user_name" minLength="3" required value={displayName}
